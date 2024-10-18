@@ -18,7 +18,7 @@ function ThemeToggle() {
   
   },[darkMode])
   return (
-    <div className="text-2xl text-slate-800 dark:text-slate-50 hover:text-slate-950 dark:hover:text-slate-50"
+    <div className="text-2xl text-slate-800 dark:text-slate-50 hover:text-slate-950 dark:hover:text-slate-50 cursor-pointer"
       onClick={()=>setDarkMode(!darkMode)}
     >
 

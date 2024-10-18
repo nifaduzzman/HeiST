@@ -30,7 +30,7 @@ function Navbar() {
           ))
         }
       </ul>
-      <ThemeToggle/>
+      <ThemeToggle />
     </nav>
   )
 }
