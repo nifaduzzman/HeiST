@@ -1,5 +1,5 @@
 
-const jobListings = [
+export const jobListings = [
   {
     id: 1,
     title: "Content Writer",

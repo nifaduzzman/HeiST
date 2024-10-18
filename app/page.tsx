@@ -1,9 +1,10 @@
 import Image from "next/image";
+import AvailableWorks from "./components/AvailableWorks";
 
 export default function Home() {
   return (
-   <main className="w-[70%] dark:bg-slate-900 bg-slate-100 min-h-[90vh] mx-auto">
-
-   </main>
+    <main className="md:w-[70%] w-full dark:bg-slate-900 bg-slate-100 min-h-[90vh] mx-auto">
+      <AvailableWorks/>
+    </main>
   );
 }
